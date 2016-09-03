@@ -4,10 +4,21 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from './components/app';
 import Landing from './components/landing';
+import Dashboard from './components/dashboard';
+import CreateRaffle from './components/createRaffle';
+import YourRaffle from './components/yourRaffles';
+import RecentRaffle from './components/recentRaffles';
+import Info from './components/info';
+
 ReactDOM.render(
 	<Router history={browserHistory} >
 		<Route path="/" component={App} >
-			<IndexRoute path="/landing" component={Landing} />
+			<IndexRoute component={Landing} />
+			<Route path="/dashboard" component={Dashboard} />
+			<Route path="/createRaffle" component={CreateRaffle} />
+			<Route path="/yourRaffles" component={YourRaffle} />
+			<Route path="/recentRaffles" component={RecentRaffle} />
+			<Route path="/info" component={Info} />
 		</Route>
 	</Router>,
 	document.querySelector('.main'));
