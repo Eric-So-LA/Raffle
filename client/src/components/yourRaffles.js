@@ -5,7 +5,7 @@ export default class YourRaffles extends Component {
 	render(){
 		return (
 			<div>
-				Your Raffles PAge
+				Your Raffles Page
 			</div>
 			)
 	}
