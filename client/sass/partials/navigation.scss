@@ -32,15 +32,11 @@
 
 				  width: 100%;
 
-				  background: $nav-light-color; /* Old browsers */
-
-				  @include custom-gradient($nav-light-color, $nav-primary-color);
+				  @include custom-gradient($light-blue, $primary-blue);
 				}
 
 		  a:hover {
-		  	  background: $nav-primary-color; /* Old browsers */
-
-		  	  @include custom-gradient($nav-primary-color, $nav-dark-color)
+		  	  @include custom-gradient($primary-blue, $dark-blue)
 		  }
 	  }
   }
