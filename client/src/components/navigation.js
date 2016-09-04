@@ -5,22 +5,22 @@ export default class Navigation extends Component {
 
 	render(){
 		return (
-				<nav>
+				<nav className="navigation">
 					<ul>
 						<li>
-							<Link to="/dashboard">Dashboard</Link>
+							<Link className="navLink" to="/dashboard">Dashboard</Link>
 						</li>
 						<li>
-							<Link to="/yourRaffles">Your Raffles</Link>
+							<Link className="navLink" to="/yourRaffles">Your Raffles</Link>
 						</li>
 						<li>
-							<Link to="/recentRaffles">Recent Raffles</Link>
+							<Link className="navLink" to="/recentRaffles">Recent Raffles</Link>
 						</li>
 						<li>
-							<Link to="/createRaffle">Create Raffle</Link>
+							<Link className="navLink" to="/createRaffle">Create Raffle</Link>
 						</li>
 						<li>
-							<Link to="/info">More Information</Link>
+							<Link className="navLink" to="/info">More Information</Link>
 						</li>
 					</ul>
 				</nav>

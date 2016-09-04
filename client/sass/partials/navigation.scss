@@ -1,0 +1,49 @@
+@import '../modules/gradients';
+@import '../modules/navColors';
+/* Make the nav take up the whole body width, and give it some top and bottom margin space */
+
+.navigation {
+  width: 100%;
+
+  margin: 20px 0; 
+
+  ul {
+  	list-style: none;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;
+
+
+	  li {
+	  	width: 20%;
+			float: left;
+			text-align: center;
+
+			a, a:hover, a:visited, a:focus, a:active {
+				color:$nav-text-color;
+				text-decoration: none;
+			}
+			a {
+				  text-align: center;
+
+				  padding: 8px 0;
+
+				  display: block;
+
+				  width: 100%;
+
+				  background: $nav-light-color; /* Old browsers */
+
+				  @include custom-gradient($nav-light-color, $nav-primary-color);
+				}
+
+		  a:hover {
+		  	  background: $nav-primary-color; /* Old browsers */
+
+		  	  @include custom-gradient($nav-primary-color, $nav-dark-color)
+		  }
+	  }
+  }
+}
+
+/* Make the list of links take up the whole width of the nav */
