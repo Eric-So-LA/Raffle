@@ -46,6 +46,16 @@
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#114357', endColorstr='#041217',GradientType=0 ); }
 
 /* Make the list of links take up the whole width of the nav */
+.nav-title {
+  float: left;
+  width: 100%;
+  display: block;
+  height: 50px; }
+  .nav-title a {
+    width: 20%; }
+  .nav-title button {
+    float: right; }
+
 body {
   width: 100%;
   margin: 0 auto; }

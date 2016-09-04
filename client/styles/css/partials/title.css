@@ -1,0 +1,9 @@
+.nav-title {
+  float: left;
+  width: 100%;
+  display: block;
+  height: 50px; }
+  .nav-title a {
+    width: 20%; }
+  .nav-title button {
+    float: right; }
