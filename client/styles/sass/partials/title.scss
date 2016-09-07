@@ -1,0 +1,35 @@
+@import '../modules/gradients';
+@import '../modules/navColors';
+@import '../modules/buttons';
+.nav-title{
+	float: left;
+	padding: 6px 0;
+	width: 100%;
+	display: block;
+	height: 50px;
+	background: #EEE;
+	a {	
+		color: black;
+		text-decoration: none;
+		font-size: 40px;
+		text-align: center;
+		width: 20%;
+		margin-left: 3%;
+	}
+	button {
+		margin-top: 10px;
+
+		@include buttons(35px, 75px);
+		float: right;
+
+	}
+	#signup {
+		margin-right: 2%;
+		background: #EEAD0E;
+	}
+	#signin {
+		background: #666;
+		color: #EEE;
+		margin-right: 4%;
+	}
+}

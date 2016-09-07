@@ -1,7 +1,6 @@
 /* Make the nav take up the whole body width, and give it some top and bottom margin space */
 .navigation {
-  width: 100%;
-  margin: 20px 0; }
+  width: 100%; }
   .navigation ul {
     list-style: none;
     margin: 0;
