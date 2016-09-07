@@ -5,8 +5,8 @@ export default class Title extends Component {
 		return(
 			<nav className="nav-title">
 				<Link to="/">Raffle Waffle</Link>
-				<button>Sign in</button>
-				<button>Sign up</button>
+				<button id="signin">Sign in</button>
+				<button id="signup">Sign up</button>
 			</nav>
 			)
 	}
