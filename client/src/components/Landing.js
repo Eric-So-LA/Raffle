@@ -4,7 +4,9 @@ export default class App extends Component {
 	render(){
 		return (
 			<div>
-				Landing Page
+				<img src={'../assets/waffleRaffle.svg'} />
+
+				Landing
 			</div>
 			)
 	}
