@@ -9,7 +9,6 @@ import CreateRaffle from './components/createRaffle';
 import YourRaffle from './components/yourRaffles';
 import RecentRaffle from './components/recentRaffles';
 import Info from './components/info';
-import Clock from './test';
 ReactDOM.render(
 	<Router history={browserHistory} >
 		<Route path="/" component={App} >
@@ -24,6 +23,5 @@ ReactDOM.render(
 	document.querySelector('.main'));
 
 ReactDOM.render(
-	<Clock />,
 	document.querySelector('#test')
 );
