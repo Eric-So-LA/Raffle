@@ -14,10 +14,16 @@ module.exports = {
 	module: {
 		loaders: [{
 			exclude: '/node_modules/',
-			loader: 'babel'
-		}]
+			loader: 'babel'	
+		},  { test: /\.(png|jpg|jpeg|gif|woff)$/, loader: 'url-loader?limit=8192' }]
 	},
 	resolve: {
+		root: path.resolve(__dirname),
+		alias: {
+			helpers: 'src/helpers',
+			components: 'src/components',
+			sayHello: 'src/helpers/sayHello'
+		},
 		extensions: ['','.js','.jsx']
 	},
 	devServer: {
