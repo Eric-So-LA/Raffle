@@ -75,6 +75,9 @@
     color: #EEE;
     margin-right: 4%; }
 
+#landing {
+  background-color: green; }
+
 body {
   width: 100%;
   margin: 0 auto; }
