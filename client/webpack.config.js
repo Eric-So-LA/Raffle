@@ -1,3 +1,4 @@
+var path = require('path');
 function randomFunction(){
 	var path = __dirname + '/bundle';
 	console.log(path)
